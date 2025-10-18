@@ -1,0 +1,214 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === NAVBAR WRAPPER === */
+.nav-menu {
+  width: 100%;
+  height: 50px;
+  /* ✅ Fixed height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #e0f7fa;
+  box-shadow: 0 5px 10px rgba(165, 205, 223, 0.8);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  /* ✅ Vertically center all content */
+  justify-content: center;
+}
+
+/* === INNER NAVBAR === */
+.navbar {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  /* ✅ Center vertically */
+  justify-content: space-between;
+  /* ✅ Logo left, links middle, button right */
+}
+
+/* === LOGO === */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  /* ✅ Vertically center logo text */
+}
+
+.logo .highlight {
+  color: #00a8e8;
+}
+
+/* === DESKTOP NAV LINKS === */
+.nav-contents {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+  /* ✅ Vertically center links */
+  justify-content: center;
+}
+
+.nav-link {
+  position: relative;
+  font-size: 20px;
+  font-weight: 450;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+/* underline animation */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: width 0.4s ease;
+}
+
+.nav-link:hover {
+  color: #00a8e8;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* === RESUME BUTTON === */
+.resume button {
+  background-color: #00a8e8;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  /* ✅ Slightly smaller for 50px navbar */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 15px;
+}
+
+.resume button:hover {
+  background-color: #0090c7;
+}
+
+.btn-icon {
+  margin-right: 5px;
+}
+
+/* === HAMBURGER ICON (MOBILE) === */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  align-items: center;
+  justify-content: center;
+}
+
+/* === SIDEBAR (MOBILE) === */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(241, 244, 247, 0.308);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 80px;
+  padding-left: 25px;
+  transition: left 0.4s ease;
+  z-index: 1100;
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.side-link {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.side-link:hover {
+  color: red;
+}
+
+.side-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: width 0.4s ease;
+}
+
+.side-link:hover::after {
+  width: 100%;
+}
+
+.side-resume button {
+  background-color: #00a8e8;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* === OVERLAY === */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1050;
+}
+
+/* === RESPONSIVE (MOBILE) === */
+@media (max-width: 768px) {
+
+  .nav-contents,
+  .resume {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 28px;
+    margin-top: 5px;
+  }
+}

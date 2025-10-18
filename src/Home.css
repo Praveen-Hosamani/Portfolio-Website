@@ -1,0 +1,195 @@
+body {
+  background: linear-gradient(135deg, #f0f5ff, #e3f2ff);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Main Home Section ===== */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 140px;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+}
+
+/* ===== Profile Image ===== */
+.side-img img {
+  width: 280px;
+  border-radius: 50%;
+  margin-left: 100px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 12px 25px rgba(53, 182, 237, 0.8);
+}
+
+.side-img img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 25px rgba(138, 230, 9, 0.8);
+}
+
+/* ===== Introduction Text ===== */
+.introduction {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.introduction h4 {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: -10px;
+}
+
+.introduction h1 {
+  font-size: 48px;
+  color: #0077b6;
+}
+
+.Typewriter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #00a8e8;
+  margin-top: -5px;
+}
+
+.about-me p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* ===== Social Icons ===== */
+.icons {
+  display: flex;
+   gap: 5px; 
+}
+
+.facebook-icon a img{
+  width: 55px;
+  height: 55px;
+}
+
+.linkedin-icon a img{
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.github-icon a img{
+  width: 45px;
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.instagram-icon a img{
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.icons img {
+  transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+}
+
+/* ===== Buttons ===== */
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.buttons .btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6c63ff, #00c2ff);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.buttons .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .side-img img {
+    width:250px;
+    margin-top: 60px;
+    margin-left: -1px;
+    
+  }
+
+  .introduction h4 {
+    font-size: 24px;
+    margin-top: -80px;
+  }
+
+  .introduction h1 {
+    font-size: 36px;
+  }
+
+  .fixed-content h5{
+    font-size: 22px;
+    margin-left: 15px;
+  }
+
+  .Typewriter {
+    font-size: 22px;
+  }
+
+  .about-me p {
+    font-size: 22px;
+  }
+
+  .facebook-icon a img{
+  width: 55px;
+  height: 55px;
+  margin-left: 70px;
+}
+
+  .icons img {
+    width: 35px;
+    height: 35px;
+  }
+
+   .buttons{
+    margin-left: 60px;
+   }
+
+  .buttons .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
