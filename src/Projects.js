@@ -28,7 +28,7 @@ class Projects extends React.Component {
                         </div>
 
                         <div className="card" style={{ width: "18rem" }}>
-                            <img src="/bakery.jpg" className="card-img-top" alt="Card example" />
+                            <img src="/college-website.png" className="card-img-top" alt="Card example" />
                             <div className="card-body">
                                 <h5 className="card-title">College Website</h5>
                                 <p className="card-text"> Developed a dynamic college website to highlight courses, faculty, and student activities.</p>
