@@ -20,8 +20,8 @@ class Projects extends React.Component {
                                 <p className="card-text"> Built a responsive bakery website using modern web technologies to highlight cakes and special offers.</p>
 
                                 <div className='buttonss'>
-                                    <a href="#" className="btn btn-primary">Live Demo</a>
-                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary">Github</a>
+                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary" alt="button">Live Demo</a>
+                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary" alt="button" >Github</a>
                                 </div>
 
                             </div>
@@ -34,8 +34,8 @@ class Projects extends React.Component {
                                 <p className="card-text"> Developed a dynamic college website to highlight courses, faculty, and student activities.</p>
 
                                 <div className='buttonss'>
-                                    <a href="#" className="btn btn-primary">Live Demo</a>
-                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary">Github</a>
+                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary" alt="button" >Live Demo</a>
+                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary" alt="button" >Github</a>
                                 </div>
 
                             </div>
@@ -48,8 +48,8 @@ class Projects extends React.Component {
                                 <p className="card-text"> Created a personal portfolio site with modern design to display projects and skills effectively.</p>
 
                                 <div className='buttonss'>
-                                    <a href="#" className="btn btn-primary">Live Demo</a>
-                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary">Github</a>
+                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary" alt="button" >Live Demo</a>
+                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary" alt="button" >Github</a>
                                 </div>
 
                             </div>

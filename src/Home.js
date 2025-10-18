@@ -11,7 +11,7 @@ class Home extends React.Component {
                 <div  id="Home"  className="main-content">
                     <div className="content">
                         <div className="side-img">
-                            <img src="/profile-photo.jpg"></img>
+                            <img src="/profile-photo.jpg" alt="profile-photo"></img>
                         </div> 
 
                         <div className="introduction">
@@ -34,7 +34,7 @@ class Home extends React.Component {
                                     
                                 </div>
                             </div>
-
+                            
                             <div className="about-me">
                                 <p> I enjoy problem-solving, learning new skills, and working on projects <br></br>
                                     that make a real impact. When I'm not coding, I spend time exploring<br></br>
@@ -43,32 +43,32 @@ class Home extends React.Component {
 
                             <div className="icons">
                                 <div className="facebook-icon">
-                                    <a href="https://www.facebook.com/share/1BM8RFKLZ9/">
-                                        <img src="/icons/facebok-icon.png"></img></a>
+                                    <a href="https://www.facebook.com/share/1BM8RFKLZ9/" alt="facebook-image">
+                                        <img src="/icons/facebok-icon.png" alt="facebook-image"></img></a>
                                 </div>
 
                                 <div className="linkedin-icon">
-                                    <a href="#">
-                                        <img src="/icons/linkedin-icon.png"></img>
+                                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" alt="Linked-in-image">
+                                        <img src="/icons/linkedin-icon.png" alt="linked-in"></img>
                                     </a>
                                 </div>
 
                                 <div className="github-icon">
-                                    <a href="https://github.com/Praveen-Hosamani">
-                                        <img src="/icons/github-icon.png"></img>
+                                    <a href="https://github.com/Praveen-Hosamani" alt="Github-image">
+                                        <img src="/icons/github-icon.png" alt="github"></img>
                                     </a>
                                 </div>
                                 
-                                <div className="instagram-icon">
-                                    <a href="https://www.instagram.com/starsports_officia?igsh=MWdpOHZzNm14ZXllcA==">
-                                        <img src="/icons/instagram-icon.png"></img>
+                                <div className="instagram-icon" >
+                                    <a href="https://www.instagram.com/starsports_officia?igsh=MWdpOHZzNm14ZXllcA==" alt="instagram-image">
+                                        <img src="/icons/instagram-icon.png" alt="instagram"></img>
                                     </a>
                                 </div>
                             </div>
 
                             <div className="buttons">
                                 <div className="btn btn-secondary" style={{ cursor: 'default' }}> Hire Me</div>
-                                <a href="/Contact.js" class="btn btn-secondary " role="button" >Contact Me</a>
+                                <a href="/Contact.js" class="btn btn-secondary " role="button" alt="contact-button">Contact Me</a>
                             </div>
 
                         </div>

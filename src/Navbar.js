@@ -70,7 +70,7 @@ const Navbar = () => {
           <a
             href="/Resume-to-Praveen.pdf"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer" alt=" My-Resume"
           >
             <button className="btn btn-primary">
               <FaFileAlt className="btn-icon" /> Resume
@@ -104,7 +104,7 @@ const Navbar = () => {
           href="/Resume-to-Praveen.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="side-resume"
+          className="side-resume" alt="My-Resume"
         >
           <button className="btn btn-primary">
             <FaFileAlt className="btn-icon" /> Resume
