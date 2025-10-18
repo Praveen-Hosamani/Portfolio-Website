@@ -48,8 +48,8 @@ class Projects extends React.Component {
                                 <p className="card-text"> Created a personal portfolio site with modern design to display projects and skills effectively.</p>
 
                                 <div className='buttonss'>
-                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary" alt="button" >Live Demo</a>
-                                    <a href="https://github.com/Praveen-Hosamani/first-website" className="btn btn-primary" alt="button" >Github</a>
+                                    <a href="https://praveen-hosamani.netlify.app/" className="btn btn-primary" alt="button" >Live Demo</a>
+                                    <a href="https://github.com/Praveen-Hosamani/Portfolio-Website" className="btn btn-primary" alt="button" >Github</a>
                                 </div>
 
                             </div>
