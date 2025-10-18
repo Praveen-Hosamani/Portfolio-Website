@@ -10,7 +10,7 @@ class About extends React.Component {
                 <div id="About" className="about-container">
                     <div className="about-header">
                         <div className="side-image" >
-                            <img src="/icons/develper-icon.png" id="about-2"></img>
+                            <img src="/icons/develper-icon.png" id="about-2" alt="developer-icon"></img>
                         </div>
 
                         <div className="about-content">
