@@ -1,5 +1,4 @@
 import React from "react";
-// import 'bootstraap/dist/css/bootstrap.min.css';
 import './About.css';
 
 class About extends React.Component {
