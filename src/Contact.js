@@ -46,7 +46,7 @@ function Contact() {
 
       <div  id="Contact"  className="contact-container">
         <div className="main-contact">
-          <div className="contact-image">
+          <div className="contact-image" id="contact-image">
             <img src="/icons/email-message.png" alt="Contact Icon" />
           </div>
 
