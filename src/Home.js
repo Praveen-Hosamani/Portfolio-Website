@@ -68,7 +68,7 @@ class Home extends React.Component {
 
                             <div className="buttons">
                                 <div className="btn btn-secondary" style={{ cursor: 'default' }}> Hire Me</div>
-                                <a href="/Contact.js" class="btn btn-secondary " role="button" alt="contact-button">Contact Me</a>
+                                <a href="#contact-image" class="btn btn-secondary " role="button" alt="contact-button">Contact Me</a>
                             </div>
 
                         </div>
